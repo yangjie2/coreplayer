@@ -1,0 +1,22 @@
+PODS:
+  - ffmpeg (6.1)
+
+DEPENDENCIES:
+  - ffmpeg (from `https://github.com/yangjie2/ffmpeg.git`, branch `main`)
+
+EXTERNAL SOURCES:
+  ffmpeg:
+    :branch: main
+    :git: https://github.com/yangjie2/ffmpeg.git
+
+CHECKOUT OPTIONS:
+  ffmpeg:
+    :commit: 44d1181c24f3a010b67e27a5cedb506b33957005
+    :git: https://github.com/yangjie2/ffmpeg.git
+
+SPEC CHECKSUMS:
+  ffmpeg: ee306af4a692e3bc7b4649e500fa634b91f2bd6f
+
+PODFILE CHECKSUM: 8ade5dc935ae22fc9b25074d2257047c57d63faa
+
+COCOAPODS: 1.14.3
