@@ -1,16 +1,10 @@
 # Uncomment the next line to define a global platform for your project
-install! "cocoapods", {
-  :preserve_pod_file_structure => true,
-  :generate_multiple_pod_projects => true,
-}
+# platform :ios, '9.0'
 
-target 'CorePlayer' do
-  platform :ios, '13.0'
+target 'Example' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  
-  pod "ffmpeg", :git => 'https://github.com/yangjie2/ffmpeg.git', :branch => 'main'
-  
-  # Pods for CorePlayer
+
+  # Pods for Example
 
 end
